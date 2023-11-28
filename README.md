@@ -8,7 +8,6 @@ Este repositório é destinado ao estudo do ecossistema Java e Spring, fornecend
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html): Certifique-se de ter o Java Development Kit instalado. Você pode verificar a instalação digitando `java -version` no seu terminal.
 - Um compilador Java: Geralmente, o compilador Java já está incluído no Java JDK. Você pode verificar a instalação digitando `javac -version` no terminal.
-- Uma IDE (Ambiente de Desenvolvimento Integrado) ou um editor de código: Você pode escolher entre várias opções populares, como:
 
   - [Eclipse](https://www.eclipse.org/downloads/): Uma IDE poderosa e amplamente utilizada para desenvolvimento Java.
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/): Uma IDE popular com uma gama de recursos avançados.
