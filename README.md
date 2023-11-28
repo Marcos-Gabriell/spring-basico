@@ -13,11 +13,7 @@ Este repositório é destinado ao estudo do ecossistema Java e Spring, fornecend
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/): Uma IDE popular com uma gama de recursos avançados.
   - [Visual Studio Code](https://code.visualstudio.com/download): Um editor de código leve e altamente personalizável, com extensões para Java.
 
-### Configuração do JDK
-Certifique-se de ter o JDK 11 instalado. Se necessário, faça o download e instalação [aqui](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 
-### Configuração do Maven
-Este projeto utiliza o Maven como gerenciador de dependências. Certifique-se de ter o Maven instalado. Se necessário, faça o download e instalação [aqui](https://maven.apache.org/download.cgi).
 
 ## Estrutura do Projeto
 
