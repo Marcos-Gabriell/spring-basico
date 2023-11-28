@@ -25,10 +25,13 @@ O projeto segue uma estrutura padrão Maven, com os diretórios principais:
 
 ## Injeção de Dependência e Anotações
 
-O projeto demonstra o uso de injeção de dependência e anotações Spring. Algumas anotações notáveis incluem:
+O projeto demonstra o uso de injeção de dependência e várias anotações Spring, incluindo:
 
 - `@Autowired`: Para injeção de dependência.
 - `@Controller`, `@Service`, `@Repository`: Para indicar componentes Spring.
 - `@RequestMapping`: Para mapeamento de URLs.
 - `@Value`: Para injetar valores de propriedades.
+- `@Configuration`: Indica que a classe contém métodos de configuração do Spring.
+- `@Bean`: Indica que um método cria e configura um objeto gerenciado pelo Spring.
+
 
