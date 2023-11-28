@@ -32,9 +32,3 @@ O projeto demonstra o uso de injeção de dependência e anotações Spring. Alg
 - `@RequestMapping`: Para mapeamento de URLs.
 - `@Value`: Para injetar valores de propriedades.
 
-## Executando o Projeto
-
-Certifique-se de ter o JDK e o Maven instalados. Clone o repositório e execute o seguinte comando na raiz do projeto:
-
-```bash
-mvn spring-boot:run
