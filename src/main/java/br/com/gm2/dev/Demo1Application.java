@@ -12,7 +12,9 @@ public class Demo1Application {
 	private AppConfiguaration appConfiguaration;
 
 	public Demo1Application(AppConfiguaration appConfiguaration) {
+
 		this.appConfiguaration = appConfiguaration;
+
 	}
 
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
