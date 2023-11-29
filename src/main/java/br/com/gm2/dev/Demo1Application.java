@@ -1,5 +1,6 @@
 package br.com.gm2.dev;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,13 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Demo1Application {
 
+	@Autowired
 	private AppConfiguaration appConfiguaration;
 
+	/*
 	public Demo1Application(AppConfiguaration appConfiguaration) {
 
 		this.appConfiguaration = appConfiguaration;
 
-	}
+	}*/
 
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
 
