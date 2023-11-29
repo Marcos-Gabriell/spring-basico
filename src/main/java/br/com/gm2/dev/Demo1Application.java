@@ -21,7 +21,7 @@ public class Demo1Application {
 
 	}*/
 
-	@Value("$(app.message")
+	@Value("${app.message}")
 	private String message;
 
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
