@@ -1,6 +1,7 @@
 package br.com.gm2.dev;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,11 +21,14 @@ public class Demo1Application {
 
 	}*/
 
+	@Value("$(app.message")
+	private String message;
+
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
 
 	@GetMapping("/inicio2")
 	public String inicio() {
-		return "ola Spring";
+		return message;
 	}
 	@GetMapping("/configuracao")
 	public String config() {
