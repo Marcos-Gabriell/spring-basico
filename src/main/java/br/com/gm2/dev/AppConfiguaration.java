@@ -6,6 +6,6 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfiguaration {
 
     public String getMessage() {
-        return "TExto de config"
+        return "Texto de config";
     }
 }

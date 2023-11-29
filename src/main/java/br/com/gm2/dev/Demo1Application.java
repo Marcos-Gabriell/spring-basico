@@ -19,13 +19,14 @@ public class Demo1Application {
 
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
 
-	@GetMapping("/inicio")
+	@GetMapping("/inicio2")
 	public String inicio() {
 
 		return "ola Spring";
 
 	}
 	@GetMapping("/configuracao")
+	public String config() {
 	    return appConfiguaration.getMessage();
 	}
 }
