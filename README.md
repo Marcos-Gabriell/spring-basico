@@ -1,5 +1,6 @@
 # Projeto de Estudo ecossistema Spring 
 
+
 Este repositório é destinado ao estudo do ecossistema Java e Spring, fornecendo uma base simples para aprender conceitos essenciais, como configurações do JDK, Maven, injeção de dependência e anotações Spring.
 
 ## Configurações do Projeto
