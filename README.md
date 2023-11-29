@@ -36,4 +36,3 @@ O projeto demonstra o uso de injeção de dependência e várias anotações Spr
 - `@Configuration`: Indica que a classe contém métodos de configuração do Spring.
 - `@Bean`: Indica que um método cria e configura um objeto gerenciado pelo Spring.
 
-
