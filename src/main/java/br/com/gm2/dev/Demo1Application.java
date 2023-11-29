@@ -9,10 +9,21 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Demo1Application {
 
+	private AppConfiguaration appConfiguaration;
+
+	public Demo1Application(AppConfiguaration appConfiguaration) {
+		this.appConfiguaration = appConfiguaration;
+	}
+
 	public static void main(String[] args) {SpringApplication.run(Demo1Application.class, args);}
 
 	@GetMapping("/inicio")
 	public String inicio() {
+
 		return "ola Spring";
+
+	}
+	@GetMapping("/configuracao")
+	    return appConfiguaration.getMessage();
 	}
 }
