@@ -16,7 +16,6 @@ Este repositório é destinado ao estudo do ecossistema Java e Spring, fornecend
   - [Visual Studio Code](https://code.visualstudio.com/download): Um editor de código leve e altamente personalizável, com extensões para Java.
 
 
-
 ## Estrutura do Projeto
 
 O projeto segue uma estrutura padrão Maven, com os diretórios principais:
