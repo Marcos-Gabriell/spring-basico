@@ -21,12 +21,10 @@ public class Demo1Application {
 
 	@GetMapping("/inicio2")
 	public String inicio() {
-
 		return "ola Spring";
-
 	}
 	@GetMapping("/configuracao")
 	public String config() {
-	    return appConfiguaration.getMessage();
+		return appConfiguaration.getMessage();
 	}
 }
