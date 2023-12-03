@@ -13,7 +13,6 @@ Este repositório é destinado ao estudo do ecossistema Java e Spring, fornecend
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/): Uma IDE popular com uma gama de recursos avançados.
   - [Visual Studio Code](https://code.visualstudio.com/download): Um editor de código leve e altamente personalizável, com extensões para Java.
 
-
 ## Estrutura do Projeto
 
 O projeto segue uma estrutura padrão Maven, com os diretórios principais:
